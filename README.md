@@ -11,6 +11,7 @@ Before you begin, ensure you have the following installed:
 - [Git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/)
 - [MetaMask](https://metamask.io/) (browser extension)
+- solidity
 
 ## Setup Instructions
 
@@ -25,14 +26,7 @@ cd openchain-publish
 npm install
 ```
 
-### 3. Environment Setup
-The project requires environment variables for blockchain connections. These are already included in the `.env` file at the root of the project:
 
-```
-PRIVATE_KEY=ccaf77b550e255c395bc763e4a901d72128e95b1b04927bd15e6e612354ce49e
-MUMBAI_RPC_URL=https://polygon-mumbai.infura.io/v3/df18896e688d44b8800e8ea36b05d1c2
-POLYGON_RPC_URL=https://polygon-mainnet.infura.io/v3/df18896e688d44b8800e8ea36b05d1c2
-```
 
 Note: These are development keys. In a production environment, never commit your private keys to the repository.
 
