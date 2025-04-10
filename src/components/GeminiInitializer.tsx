@@ -18,7 +18,7 @@ const GeminiInitializer = () => {
     
     // Set the API key in the window object
     if (savedApiKey) {
-      window.GEMINI_API_KEY = savedApiKey;
+      window.GEMINI_API_KEY = 'AIzaSyA9R5eASdFxBPigyqMvSgV2n2cuv_JGri4';
       console.log("Gemini API key configured successfully");
     } else {
       console.warn("Gemini API key not configured");
